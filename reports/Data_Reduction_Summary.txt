@@ -1,0 +1,9 @@
+Initial dataset shape: (6971560, 19)
+Final dataset shape:   (6792031, 19)
+Row reduction:         2.54%
+
+Key cleaning steps:
+- Invalid pickup/dropoff timestamps removed
+- Negative and zero-value records filtered
+- Unrealistic trip duration and speed removed
+- Fare inconsistencies corrected
